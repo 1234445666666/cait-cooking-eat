@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- настройка meta и подключение icon -->
+  <link rel="stylesheet" href="style.css" />
+  <title>вкусная еда</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=enge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="authot" content="Pasha Karpov" />
+  <meta name="keywords" content="Eda , Cooking , Lunch , dinner , eat , fresh" />
+  <meta name="description" content="Cooking eat" />
+  <link rel="stylesheet" href="style.css" />
+  <meta property="og:title" content="Вкусная еда" />
+  <meta property="og:title" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="Сайт про рецепты" />
+  <meta property="og:site-name" content="Вкусная еда" />
+  <link rel="icon" href="./icons/favicon.ico" type="image/x-icon" />
+</head>
+
+<body class="page">
+  <header>
+    <!-- создание шапки сайта про еду -->
+    <img class="logo__image" src="./img/logo.jpg" alt="cooking" />
+    <nav>
+      <ul class="navigator">
+        <li><a href="./index.html">Главная</a></li>
+        <li><a href="#popular-blud">Рецепты</a></li>
+        <li><a href="#blogers">Блог</a></li>
+        <li><button type="button">Войти в аккаунт</button></li>
+        <li><button type="button">Зарегистрироваться</button></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- создание секции 1 -->
+    <section class="menu__1">
+      <figure>
+        <img class="picture__2" src="./img/recipe.png" alt="" />
+        <figcaption>
+          <h1 menu__text__1>Тут ты можеш делиться со своими рецептами</h1>
+          <h3>
+            Создавай, придумывай новые и интересные рецепты.<br />
+            Делись с пользователями и смотри их рецепты. <br />Мы уверены, что
+            здесь вы точно найдете себе рецепты по душе.
+          </h3>
+          <button class="button__3">создать рецепт</button>
+        </figcaption>
+      </figure>
+    </section>
+    <!-- создание 2 секции -->
+    <section class="menu__2">
+      <h1 id="popular-blud">Популярные категории</h1>
+      <figure>
+        <div class="kategorii">
+          <img src="./img/pp.jpg" alt="" />
+          <a class="cculka" href="#">ПП еда</a>
+        </div>
+        <div class="kategorii">
+          <img src="./img/leto.jpg" alt="" />
+          <a class="cculka" href="#">Еда к лету</a>
+        </div>
+        <div class="kategorii">
+          <img src="./img/breakfast.jpg" alt="" />
+          <a class="cculka" href="#">Завтра</a>
+        </div>
+        <div class="kategorii">
+          <img src="./img/lunch.webp" alt="" />
+          <a class="cculka" href="#">Обеды</a>
+        </div>
+        <div class="kategorii">
+          <img src="./img/diner.jpeg" alt="" />
+          <a class="cculka" href="#">Ужин</a>
+        </div>
+        <div class="kategorii">
+          <img src="./img/cocktails.jpeg" alt="" />
+          <a class="cculka" href="#">Коктели</a>
+        </div>
+      </figure>
+    </section>
+    <!-- создание секции 3 -->
+    <section class="blog">
+      <h1 id="blogers">Блог</h1>
+      <div class="blogi">
+        <div class="blog1">
+          <img src="./img/blog1.jpg" alt="" />
+          <p><b>Все известные мифы про гречку...</b></p>
+        </div>
+        <div class="blog2">
+          <img src="./img/blog2.jpg" alt="" />
+          <p><b>Чем полезно, а чем вредно кофе...</b></p>
+        </div>
+        <div class="blog3">
+          <img src="./img/blog3.jpg" alt="" />
+          <p>
+            <b>Как правильно составить рацион.Лучшие советы диетологов...</b>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- создание конца сайта -->
+  <footer>
+    <nav>
+      <h3>
+        Сайт предоствален для общего пользования и показам разных блюд для
+        пользователей сайта.
+      </h3>
+      <a href="#">Контакт</a>
+      <a href="#">Адрес</a>
+      <a href="#">Доставка</a>
+      <a href="#">Сотрудничество</a>
+      <a href="#">Отзывы</a>
+    </nav>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d104437.30805853398!2d37.618734993543775!3d55.75278046227021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1728074494726!5m2!1sru!2sru"
+      width="400px" height="400px" style="border: 2px solid black" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
